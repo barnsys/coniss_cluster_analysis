@@ -1,4 +1,4 @@
-Ãëóáèíà	Lindavia_aff._minuta_(Cyclotella_minuta)	Aulacoseira_subarctica	Stephanodiscus_sp.	Cyclotella_antiqua_Smith.	Lindavia_ocellata	Discostella_stelligera	Tabellaria_flocculosa	Ellerbekia_arenaria	Pseudostaurosira_parasitica var. subconstricta	Staurosira_pseudoconstruens	Staurosira_binodis_(Pseudostaurosira_construens_var._binodis)	Staurosira_lapponica	Staurosirella_leptostauron	Punctistriata_discoidea	Other_benthic
+ÃƒÃ«Ã³Ã¡Ã¨Ã­Ã 	Lindavia_aff._minuta_(Cyclotella_minuta)	Aulacoseira_subarctica	Stephanodiscus_sp.	Cyclotella_antiqua_Smith.	Lindavia_ocellata	Discostella_stelligera	Tabellaria_flocculosa	Ellerbekia_arenaria	Pseudostaurosira_parasiticaÂ var.Â subconstricta	Staurosira_pseudoconstruens	Staurosira_binodis_(Pseudostaurosira_construens_var._binodis)	Staurosira_lapponica	Staurosirella_leptostauron	Punctistriata_discoidea	Other_benthic
 1	88.8	130.8	1.8	0	0.8	0	0	0	0	7.2	0	0.4	8.2	0	3
 2	197	223.4	10.6	0.6	3.2	1.2	0.4	0	4.6	4.6	16	0.2	14.6	2	26
 3	281.2	304.2	11.2	0	0.6	0	1	1.2	13.8	15.2	0	1.2	19.6	2	24
