@@ -3,9 +3,6 @@ library(rioja)
 library(vegan)
 library(dendextend)
 
-setwd("F:\\Стратиграфическая кластеризация\\Анализ")
-
-
 data<-read.table("data.txt", header=TRUE, sep="\t")
 
 rownames(data)<-data[,1]
