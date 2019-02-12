@@ -1,0 +1,37 @@
+
+library(rioja)
+library(vegan)
+library(dendextend)
+
+setwd("F:\\Стратиграфическая кластеризация\\Анализ")
+
+
+data<-read.table("data.txt", header=TRUE, sep="\t")
+
+rownames(data)<-data[,1]
+data<-data[,-1]
+
+#divide by margin total
+data<-decostand(data, method="total", MARGIN=1)
+
+#arithmetic mean transformed data 
+s<-colMeans(data)
+for(i in 1:ncol(data)) data[,i]<-data[,i]/s[i]
+
+#CONISS cluster analysis 
+dis<-vegdist(data, method="bray")
+clust<-chclust(dis, method="coniss")
+
+#Determination of the number biostratigraphic zones
+k.max <- 10
+bst <- bstick(clust, k.max, xlim=c(1,k.max+1))
+bst
+
+#visualization
+n<-4
+par(mar = c(3,3,1,1))
+dend<-color_labels(clust, k=n)
+dend<-set(dend, "labels_cex", 0.5)
+plot(dend)
+
+
