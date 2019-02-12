@@ -20,7 +20,7 @@ dis<-vegdist(data, method="bray")
 clust<-chclust(dis, method="coniss")
 
 #Determination of the number biostratigraphic zones
-k.max <- 10
+k.max <- 10 #maximum number of clusters
 bst <- bstick(clust, k.max, xlim=c(1,k.max+1))
 bst
 
